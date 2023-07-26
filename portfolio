@@ -24,7 +24,7 @@
         /*nav */
         header {
             padding: 1.7rem 1rem;
-            background-color: #0eb84f;
+            background-color: hsl(334, 100%, 49%);
             display: flex;
             justify-content: space-between;
             max-width: 80%;
@@ -35,16 +35,16 @@
 
         .logo {
             font-size: 1.3rem;
-            font-weight: 800;
+            font-weight: 900;
         }
 
         .logo a {
-            color: #0ac526;
+            color: hsl(334, 100%, 49%);
             text-decoration: none;
         }
 
         nav a {
-            color: rgb(9, 219, 75);
+            color: hsl(334, 100%, 49%);
             text-decoration: none;
             font-size: .97rem;
             font-weight: 600;
@@ -55,7 +55,7 @@
 
         nav a.active,
         nav a:hover {
-            color: #00f83e;
+            color: hsl(334, 100%, 49%);
             border-radius: 1rem;
             transition: all.3s ease-in-out;
         }
@@ -65,7 +65,7 @@
         }
 
         .menu i {
-            color: #00f884;
+            color: hsl(334, 100%, 49%);
         }
 
         .menu {
@@ -120,8 +120,8 @@
 
         .social a:hover {
             color: #1F252E;
-            background-color: #00f878;
-            box-shadow: 0 0 20px #00f884;
+            background-color:hsl(336, 100%, 49%);
+            box-shadow: 0 0 20px hsl(336, 100%, 49%);
             transition: all .3s ease-in-out;
         }
 
@@ -139,7 +139,7 @@
             background-position: 0 -75px;
             -webkit-box-shadow: 0 10px 10px -10px hwb(201 25% 35%);
             -moz-box-shadow: 0 10px 10px -10px hwb(201 25% 35%);
-            box-shadow: 0px 16px 4px -10px #00f846;
+            box-shadow: 0px 16px 4px -10px hsl(336, 100%, 49%);
             width: 528px;
             background-size: cover;
         }
@@ -198,8 +198,8 @@
         <nav>
             <a href="#" class="active">Home</a>
             <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
+            <a href="skill.html">Skills</a>
+            <a href="resume2.html">Resume</a>
             <a href="#">Contact</a>
         </nav>
     </header>
@@ -208,7 +208,7 @@
     <section>
         <div class="main">
             <div class="detail"><!---Sarah -->
-                <h1><span>Hi, It's Me</span> <br> I'm <span style="color:#f80070;">Nitin</span></h1>
+                <h1><span>Good Morning</span> <br> I Am <span style="color:#f80070;">Nitin</span></h1>
                 <p>"Recent computer science graduate with a strong foundation in programming and software development. Seeking an entry-level position to utilize problem-solving skills and collaborate with a team of developers to create reliable and efficient software solutions." </p>
                 <div class="social">
                     <a href="https://github.com/NitinThakur369?tab=repositories"><i class="bi bi-github"></i></a>
@@ -225,8 +225,5 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 </style>
-<!-- <style>
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
-  </style> -->
 
 </html>
